@@ -1,0 +1,81 @@
+.fundo-cinza{
+    background-color: #0f3885;
+}
+
+.imagem-vbucks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.imagem-vbucks img {
+    width: 100%;
+    max-width: 380px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.botao{
+    align-items: center;
+    gap: 8px;
+    background-color: #FFCC4D;
+    color: #101827;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 9px 18px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+.topo{
+    padding: 20px; /*margem interna*/
+    color: #ffffff; /* cor da fonte*/
+    font-family: 'Courier New', Courier, monospace; /**/
+    text-align: center;/**/
+    font-size: 1.2em; /* tamanho da fonte*/
+}
+
+.letra-logo{
+    color: aquamarine;
+}
+
+.letras-titulo{
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.letras-subtitulo{
+    font-size: 25px;
+    color: #ffffff;
+}
+
+
+.topo-fluido{
+    border-top: 1px solid #4e4e4e;/* borda superior*/
+}
+
+.menu{
+    display: flex; /*alinha os itens na horizontal*/
+    gap: 4px; /* espaço entre os elementos*/
+    padding-top: 20px;
+}
+/* altera todas as tags <li> que estiverem dentro da classe .menu*/
+.menu li{
+    flex-grow: 1; /* aumentar a largura do elemento*/
+    list-style: none;
+    /*border: 1px solid white;*/
+    text-align: center;
+}
+
+/* altera a taga <a> que esta dentro do li que esta dentro do menu*/
+.menu li a{
+    color: #ffffff;
+    text-decoration: none; /*remove o sublinhadeo do link*/
+    padding: 5px;
+    display: block;
+}
+
+.menu li a:hover{
+    background-color: rgb(146, 205, 251);
+    color: #333333;
+    transition: 0.5s;
+}
